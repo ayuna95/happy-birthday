@@ -1,0 +1,29 @@
+body {
+    background: url(./bd.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+@font-face {
+    font-family: Pompadur; /* Имя шрифта */
+    src: url(fonts/13218.otf); /* Путь к файлу со шрифтом */
+}
+h1 {
+    font-family: Pompadur;
+    color: brown;
+}
+@font-face {
+    font-family: OPTIOliver-Display; /* Имя шрифта */
+    src: url(fonts/14651.ttf); /* Путь к файлу со шрифтом */
+}
+
+p {
+    margin-right: 50%;
+    font-family: OPTIOliver-Display;
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
