@@ -11,6 +11,14 @@ const server = http.createServer(function(request, response){
         const jp = fs.readFileSync('bd.jpg');
         response.end(jp)
     } 
+    if(request.url == '/b1.jpg'){
+        const jp = fs.readFileSync('b1.jpg');
+        response.end(jp)
+    }
+    if(request.url == '/b2.jpg'){
+        const jp = fs.readFileSync('b2.jpg');
+        response.end(jp)
+    }
     if(request.url == '/fonts/13218.otf'){
         const jp = fs.readFileSync('fonts/13218.otf');
         response.end(jp)
@@ -26,5 +34,5 @@ const server = http.createServer(function(request, response){
 });
 
 
-server.listen(process.env.PORT || 3000);
+server.listen(process.env.PORT || 1000);
 console.log("Server started!")
